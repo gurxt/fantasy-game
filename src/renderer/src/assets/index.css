@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+#root {
+  @apply flex flex-row w-full h-full bg-black;
+}
+
+.tim {
+  @apply text-red-500;
+}
